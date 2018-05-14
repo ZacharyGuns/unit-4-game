@@ -14,13 +14,23 @@
     <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
     <p>the value of each crystal is hidden from you until you click on it.</p>
     <p>Each time the game starts, the game will change the values of each crystal.</p>
+    
     <h2 id="matchNumber"></h2>
+
     <div class="gemButtons">
-        <input type="image" src="assets/images/diamond.jpg" width="100px" />
-        <input type="image" src="assets/images/ruby.jpg" width="100px" />
-        <input type="image" src="assets/images/saphhire.jpg" width="100px" />
-        <input type="image" src="assets/images/emerald.jpg" width="100px" />
-        <!--
+        <div id="diamond">
+            <input type="image" src="assets/images/diamond.jpg" width="100px">
+        </div>
+        <div id="ruby">
+            <input type="image" src="assets/images/ruby.jpg" width="100px">
+        </div>
+        <div id="sapphire">
+            <input type="image" src="assets/images/saphhire.jpg" width="100px">
+        </div>
+        <div id="emerald">
+            <input type="image" src="assets/images/emerald.jpg" width="100px">
+        </div>
+            <!--
         <button class="gemButtons">
             <img src="assets/images/diamond.jpg" width="100px">
         </button>
@@ -35,9 +45,13 @@
         </button>
         -->
     </div>
-    <p id="yourScoreIs"></p>
-    <h2 id="playerNumber"></h2>
+
+    <h2 id="yourScoreIs"></h2>
+
     <p id="wins"></p>
+
     <p id="losses"></p>
+
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>
